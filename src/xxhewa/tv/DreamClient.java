@@ -17,9 +17,12 @@ public class DreamClient {
     private String ipAddress;
     private String stringUrl;
 
-    public static final int POWER_ON = 1;
-    public static final int STANDBY  = 2;
-
+    public static final int POWER_ON       = 1;
+    public static final int STANDBY        = 2;
+    public static final int FAST_FORWARD   = 3;
+    public static final int FAST_BACKWARD  = 4;
+    public static final int OK             = 5;
+    public static final int PAUSE          = 6;
 
     public DreamClient(String ipAddress){
         this.ipAddress = ipAddress;
